@@ -34,6 +34,12 @@ npm run build
 Created by Aman Prajapati
 
 ## Project Proof
-Folder & File's Structure (![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/db761d17b042f4cf3484ec382b0e70e1b4153ad1/Folders%20%26%20File%20%20Structure.png))
+1.
+
+ ![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/db761d17b042f4cf3484ec382b0e70e1b4153ad1/Folders%20%26%20File%20%20Structure.png)
+ 
+2. 
 ![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/4e143a7d09b32443cf7a847e62f824b3cf805966/codes%20view.png)
+
+3.
 ![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/4e143a7d09b32443cf7a847e62f824b3cf805966/project%20view.png)
