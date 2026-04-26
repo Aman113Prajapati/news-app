@@ -16,7 +16,7 @@ A React-based News App that fetches real-time news using News API.
 ## 🔑 Setup Instructions
 
 1. Clone the repo:
-   git clone https://github.com/your-username/news-app.git
+   git clone https:(https://github.com/Aman113Prajapati)
 
 2. Install dependencies:
    npm install
