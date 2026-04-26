@@ -1,0 +1,60 @@
+/* Card container */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Title */
+.card .card-title {
+    font-size: 1.2rem;   /* FIXED (was 5rem ❌) */
+    font-weight: 600;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Source + Date row */
+.card .card-source {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+
+.card .card-source p {
+    font-size: 0.75rem;
+    margin: 0;
+    color: gray;
+}
+
+/* Description */
+.card .card-text {
+    font-size: 0.9rem;
+    color: #333;
+
+    /* FIX: prevent overflow instead of fixed height */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* show only 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Button */
+.card a.btn {
+    margin-top: 10px;
+}
