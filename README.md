@@ -34,3 +34,6 @@ npm run build
 Created by Aman Prajapati
 
 ## Project Proof
+[![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/db761d17b042f4cf3484ec382b0e70e1b4153ad1/Folders%20%26%20File%20%20Structure.png),
+[![App Screenshot](),
+[![App Screenshot]()
