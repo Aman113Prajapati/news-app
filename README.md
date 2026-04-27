@@ -42,5 +42,4 @@ Created by Aman Prajapati
 2. Code Review :
 ![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/4e143a7d09b32443cf7a847e62f824b3cf805966/codes%20view.png)
 
-3.Final Review :
 ![App Screenshot](https://github.com/Aman113Prajapati/news-app/blob/4e143a7d09b32443cf7a847e62f824b3cf805966/project%20view.png)
