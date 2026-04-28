@@ -21,7 +21,7 @@ export default function HomePage() {
             setError("")
 
             let response = await fetch(
-                `https://newsapi.org/v2/everything?q=${query}&pageSize=10&page=${pageNum}&language=${lang}&sortBy=publishedAt&apiKey=45017cf1fc8c4061a3fc9bff623f87cb`
+                `https://newsapi.org/v2/everything?q=${query}&pageSize=10&page=${pageNum}&language=${lang}&sortBy=publishedAt&apiKey= your Api key`
             )
 
             if (response.status === 429) {
