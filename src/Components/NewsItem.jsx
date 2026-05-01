@@ -23,7 +23,7 @@ export default function NewsItem( { source, description, date, pic, url } ) {
             {description?.slice( 0, 100 )}
           </p>
 
-          <a href={url} target="_blank" rel="noreferrer" className="btn btn-primary">
+          <a href={url} target="_blank" rel="noreferrer" className="btn btn-custom">
             Read More
           </a>
 
