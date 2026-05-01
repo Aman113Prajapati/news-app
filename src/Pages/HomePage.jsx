@@ -21,7 +21,7 @@ export default function HomePage() {
             setError("")
 
             let response = await fetch(
-                `https://newsapi.org/v2/everything?q=${query}&pageSize=10&page=${pageNum}&language=${lang}&sortBy=publishedAt&apiKey= your Api key`
+                `https://newsapi.org/v2/everything?q=${query}&pageSize=10&page=${pageNum}&language=${lang}&sortBy=publishedAt&apiKey=45017cf1fc8c4061a3fc9bff623f87cb`
             )
 
             if (response.status === 429) {
@@ -78,7 +78,7 @@ export default function HomePage() {
     return (
         <div className='container-fluid my-3'>
 
-            <h5 className='text-center p-2 bg-primary text-light'>
+            <h5 className='text-center p-2 bg-secondary text-light'>
                 {q.toUpperCase()} News (Page {page})
             </h5>
 
@@ -119,7 +119,7 @@ export default function HomePage() {
             {/* Pagination */}
             <div className='d-flex justify-content-between my-4'>
                 <button
-                    className='btn btn-primary'
+                    className='btn btn-nav'
                     disabled={page <= 1}
                     onClick={handlePrev}
                 >
@@ -127,7 +127,7 @@ export default function HomePage() {
                 </button>
 
                 <button
-                    className='btn btn-primary'
+                    className='btn btn-nav'
                     disabled={page * 10 >= totalResults}
                     onClick={handleNext}
                 >
