@@ -1,10 +1,10 @@
-/*  Global */
+/* 🌐 Global */
 body {
   background-color: #f4f7fb;
   font-family: 'Segoe UI', sans-serif;
 }
 
-/*  Navbar */
+/* 🔷 Navbar */
 .navbar-custom {
   background: linear-gradient(90deg, #0ea5e9, #6366f1);
   padding: 12px 20px;
@@ -20,6 +20,8 @@ body {
 .navbar-custom .nav-link:hover {
   color: #ffd166 !important;
 }
+
+/* 📱 Mobile toggle fix */
 .navbar-toggler {
   border-color: rgba(255,255,255,0.5);
 }
@@ -27,7 +29,8 @@ body {
 .navbar-toggler-icon {
   filter: invert(1);
 }
-/* Dropdown */
+
+/* 🔽 Dropdown */
 .dropdown-modern {
   border-radius: 10px;
   border: none;
@@ -38,7 +41,7 @@ body {
   background: #f1f5f9;
 }
 
-/* Search */
+/* 🔍 Search */
 .search-input {
   border-radius: 20px;
   border: none;
@@ -59,7 +62,7 @@ body {
   background: #ffb703;
 }
 
-/*  Card */
+/* 📰 Card */
 .card {
   border: none;
   border-radius: 14px;
@@ -70,20 +73,20 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.06);
 }
 
-/*  Card Hover */
+/* ✨ Card Hover */
 .card:hover {
   transform: translateY(-6px) scale(1.01);
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* Image */
+/* 🖼 Image */
 .card img {
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
-/* Title */
+/* 📝 Title */
 .card .card-title {
   font-size: 1.1rem;
   font-weight: 600;
@@ -92,7 +95,7 @@ body {
   line-height: 1.4;
 }
 
-/* Accent line */
+/* 🟡 Accent line */
 .card .card-title::after {
   content: "";
   display: block;
@@ -103,7 +106,7 @@ body {
   border-radius: 2px;
 }
 
-/*  Source + Date */
+/* 📅 Source + Date */
 .card .card-source {
   display: flex;
   justify-content: space-between;
@@ -116,7 +119,7 @@ body {
   color: #64748b;
 }
 
-/*  Description */
+/* 📄 Description */
 .card .card-text {
   font-size: 0.9rem;
   color: #475569;
@@ -128,7 +131,7 @@ body {
   overflow: hidden;
 }
 
-/*  Button (Card) */
+/* 🔘 Button */
 .card a.btn,
 .btn-custom {
   margin-top: 12px;
@@ -141,14 +144,14 @@ body {
   transition: 0.3s;
 }
 
-/*  Button Hover */
+/* 🚀 Button Hover */
 .card a.btn:hover,
 .btn-custom:hover {
   transform: scale(1.05);
   opacity: 0.9;
 }
 
-/* ⬅Pagination */
+/* ⬅️➡️ Pagination */
 .btn-nav {
   background: #1e293b;
   color: white;

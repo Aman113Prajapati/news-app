@@ -23,7 +23,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-custom sticky-top">
       <div className="container-fluid">
 
-        <Link className="navbar-brand fw-bold" to="/"> NEWS-APP </Link>
+        <Link className="navbar-brand fw-bold" to="/">
+          NEWS-APP
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -90,7 +92,7 @@ export default function Navbar() {
 
           </ul>
 
-          {/* Search */}
+          {/* 🔍 Search */}
           <form className="d-flex" onSubmit={handleSearch}>
             <input
               className="form-control me-2 search-input"
